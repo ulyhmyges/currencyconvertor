@@ -4,7 +4,9 @@
   "scripts": {
     "res:build": "rescript",
     "res:clean": "rescript clean",
-    "res:dev": "rescript -w"
+    "res:dev": "rescript -w",
+    "build": "parcel build public/index.html",
+    "start": "parcel public/index.html --open"
   },
   "keywords": [
     "rescript"
@@ -13,6 +15,10 @@
   "license": "MIT",
   "dependencies": {
     "@rescript/core": "^1.6.0",
+    "@rescript/react": "^0.13.0",
     "rescript": "^11.1.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
   }
 }
