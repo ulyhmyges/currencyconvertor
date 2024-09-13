@@ -4,12 +4,8 @@ Console.log("Hello, world")
 @react.component
 let make = () => {
   <div>
-    // {Test.make()}
     <Test />
+    <Dropdowns />
   </div>
 }
 
-
-// Export the component
-// @module 
-// external demoComponent: unit => React.element = "src/Demo.res.mjs"
