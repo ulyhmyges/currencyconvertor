@@ -1,4 +1,4 @@
-# ReScript Project Template
+# ReScript Project
 
 - [Installation](../../README.md)
 
@@ -12,12 +12,17 @@ npm install
 
 ## Build
 
-- Build: `npm run res:build`
-- Clean: `npm run res:clean`
-- Build & watch: `npm run res:dev`
+- Build: `pnpm run res:build`
+- Build & watch: `pnpm run res:dev`
+
+- Build Parcel: `pnpm run build`
 
 ## Run
 
 ```sh
-node src/Demo.res.js
+pnpm run start
 ```
+
+## Clean
+
+- Clean: `pnpm run res:clean`
