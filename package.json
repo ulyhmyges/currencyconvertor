@@ -5,7 +5,7 @@
     "res:build": "rescript",
     "res:clean": "rescript clean",
     "res:dev": "rescript -w",
-    "build": "parcel build public/index.html",
+    "build": "rm -r .parcel-cache && parcel build public/index.html",
     "start": "parcel public/index.html --open"
   },
   "keywords": [

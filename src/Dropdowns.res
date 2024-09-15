@@ -31,6 +31,7 @@ let make = () => {
       setTextButton(_prev => text)
     }
   let () = Js.log(text)
+  
   let container = ReactDOM.Style.make(~padding="20px", ())
   let item = ReactDOM.Style.make(~paddingBottom="20px", ())
 
@@ -60,7 +61,7 @@ let make = () => {
 
     <div style=item>
   
-      <button onClick={handleButton}>{React.string("Refresh: "++ textButton)}</button>
+      <Button onClick={handleButton}>{React.string("Refresh: "++ textButton)}</Button>
     </div>
   </div>
 }
